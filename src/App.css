@@ -1,38 +1,193 @@
-.App {
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+.middle-area{
+ background-image: url(https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600);
+ background-size: cover;
+ height: 700px;
+ 
+}
+.petlogo{
+  width: 200px;
+  height: 100px;
+
+}
+body{
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh ;
+}
+ul{
+  width: 40%;
+}
+.stylenavbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.navbar{
+  position: absolute;  
+  background: transparent;
+  width: 100%;
+  height: 60px;
+}
+.navbar-nav{
+  justify-content: space-between;
+}
+
+.a{
+  height: 60px;
+  background: transparent;
+}
+.petpic{
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  justify-content: center;
+  border-bottom: 3px solid blue;
+}
+
+.petabout{
+  display: flex;
+  justify-content: space-between;
+}
+.petpic-h{
+  text-align: center;
+}
+.petabout-title{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pic{
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.principal-about{
   display: flex;
-  flex-direction: column;
+  gap: 30px;
+  margin-top: 10%;
+  background-color:burlywood;
+}
+.principal-profil{
+  margin-left: 10%;
+  margin-top: 3%;
+}
+.principal-description{
+  margin-top: 6%;
+}
+.name{
+  margin-left: 30px;
+}
+.ceo{
+  margin-left: 30px;
+}
+
+
+.main{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  margin-top: 60px;
+  margin-left: 10%;
+}
+.main-text{
+  max-width: 40%;
+  margin-top: 40px;
+}
+.main-text h1{
+  color: #ff821d;
+  font-size: 60px;
+ 
+}
+.main-text h2 {
+  font-size: 35px;
+  color: #7b3a43;
+}
+.main-text p{
+  color: #7b3a43;
+  font-size: 16px;
+  width: 600px;
+  margin-top: 10px;
+
+}
+.main-text a{
+  display: inline-block;
+  color: #fff;
+  padding: 8px 30px;
+  background: #7b3a43;
+  text-decoration: none;
+  margin-top: 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.main-img{
+  padding-right: 100px;
+}
+.main-img img{
+  width: 400px;
+  margin: auto;
+}
+.bottom-part .social-icon img{
+  width: 30px;
+  margin-right: 10px;
+}
+.bottom-part p{
+  color: #ebdadc;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+.social-icon{
+  margin-top: 30px;
+  margin-left: 10%;
+}
+
+.adoptnow{
+  text-align: center;
+  background-color: Gainsboro;
+  
+}
+
+.principal{
+ 
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin-top: 8%;
+}
+.container .card{
+width: 208px;
+position: relative;
+height: 400px;
+border-radius: 33px;
+background: #e0e0e0;
+box-shadow:  20px 20px 47px #848484,
+-20px -20px 47px #ffffff;
+transition: 0.3s ease-in-out;
+margin-top: 5%;
+margin: 20px 10px;
+padding: 20px 15px;
+display: flex;
+flex-direction: column;
+}
+.fcontact{
+  
+ margin-top: 50px;
 }
